@@ -1,5 +1,7 @@
 # Animonculory Visual Overhaul
 
+# This version of the list is not supported and does not get any updates in the future. 
+
 ![image](https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/AVOLogo.webp)
 
 Wabbajack Modlist Installer by Althro & Styyx
@@ -37,15 +39,16 @@ Wabbajack Modlist Installer by Althro & Styyx
   - [Playing the List](#playing-the-list)
     - [Starting up the list](#starting-up-the-list)
     - [In Game MCM Options](#in-game-mcm-options)
-    - [Starting the Game](#starting-the-game)
-  - [Updating AVO](#updating-the-modlist)
+    - [Starting the Game](#starting-the-game)  
   - [FAQ](#faq)
    - [Removing the modlist](#removing-the-modlist)
   - [Credits and Thanks](#credits-and-thanks)
   - [Contact](#contact)
 
 ## Preamble
-**NOTE**: This list **REQUIRES** the paid update to Skyrim. The previous version which used the non paid update is **NO LONGER SUPPORTED.**
+**NOTE**: AVO **DOES NOT** require the paid update to Skyrim. It is compatible with it, but does not require it. If you wish to use the new paid content update, please use [AVO-AE](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/AEReadme.md).
+
+# This version of the list is not supported and does not get any updates in the future. 
 
 Animonculory Visual Overhaul (AVO) is designed as a base for your own modlist. Featuring graphical enhancements, mandatory bug fixes and tweaks and method patching, it is the perfect base to build upon. AVO is made for Skyrim Special Edition Version 1.6.353 (also known as Anniversary Edition) and uses the .exe of that version as well. It uses [Solas Weathers](https://www.nexusmods.com/skyrimspecialedition/mods/49004) by default; however, it can support whichever weather mod you wish to use.
 
@@ -70,6 +73,8 @@ AVO has been tested extensively on a range of systems and using industry standar
 
 Space required: Approx 130GB (Downloads included)
 
+# This version of the list is not supported and does not get any updates in the future. 
+
 ## Installation
 
 Installing AVO is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating).
@@ -78,12 +83,17 @@ Installing AVO is relatively easy and, if you have Nexus Premium, will be a simp
 
 Prior to installing AVO, please complete the following steps.
 
-1. Install [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe) & [.Net Runtime v5 desktop x64](https://dotnet.microsoft.com/download/dotnet/5.0/runtime).
+**NOTE:** this version of the list does not work with the GOG version of the game, nor will it ever work with it
+
+# This version of the list is not supported and does not get any updates in the future. 
+
+1. Install [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
 3. Fully uninstall Skyrim by deleting the folder and the Skyrim Special edition folder inside \Documents\My Games\.
 4. Reinstall Skyrim into a location that is not Program files. Somewhere like `C:\Games` is a good location.
 5. Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.
-6. You also need to start the games to the main menu in order to download all the creations.
+6. In order to install AVO (regular, not AE) you need to fully update your game to 1.6.640 and then fully downgrade it with [Full Downgrader 1.6.640 - 1.6.353](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=318029&game_id=1704) to be on 1.6.353.
+re-run Wabbajack afterwards and it should install
 
 ### Wabbajack Installation
 
@@ -95,8 +105,8 @@ Once you have completed pre-installation, download the [latest version of Wabbaj
 
 Downloading and installing AVO can take a while depending on your internet connection and computer. To install AVO, complete the following steps.
 
-1. Open Wabbajack and click on browse modlists.
-2. Press the download button on AVO and wait for it to download.
+1. Head to the Release tab here and download the only available version. 
+2. Open Wabbajack and choose ``install from disk`` then select the downloaded file
 3. Set the installation folder to be somewhere like C:\Games\AVO. **Do not install it to your desktop or downloads folder.**
 4. The download location does not need to be on a SSD but it makes installing a bit faster
 5. Press the play button to begin.
@@ -108,11 +118,7 @@ Downloading and installing AVO can take a while depending on your internet conne
 It is possible that you may encounter an error with Wabbajack when installing. Some common issues are listed below.
 
 - Could not download x:
-	- Big files can fail to download due to connection issues. You can either run wabbajack again or download the file manually. If you decide to manually download it, make sure to place it in the same place as the other downloads.
-
-- x is not a whitelisted download:
-
-	 - This will happen when I update the modlist. Please check if there is a new update or wait until you see a release ping.
+	- Big files can fail to download due to connection issues. You can either run wabbajack again or download the file manually. If you decide to manually download it, make sure to place it in the same place as the other downloads. If you don't know which files failed, you're out of luck as this version of the list is not supported anymore. 
 
 - Wabbajack could not find my game folder:
 
@@ -120,6 +126,9 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 - Antivirus reports a virus:
 	- Windows 10/11 may automatically quarantine a key file which is needed for Mod Organizer. You can fix this by [adding an exclusion for Mod Organizer in windows defender](https://www.thewindowsclub.com/exclude-a-folder-from-windows-security-scan).
+
+# This version of the list is not supported and does not get any updates in the future. 
+
 
 ## Post-Installation
 
@@ -152,6 +161,8 @@ Activate the ENB you wish to use by pressing the slider. To deactivate it, simpl
 
 For adding your own presets and more details, take a look at [ENB Organizer](https://www.nexusmods.com/skyrim/mods/67077) for more information.
 
+# This version of the list is not supported and does not get any updates in the future. 
+
 ## Playing the List
 
 ### Starting up the list
@@ -172,15 +183,17 @@ Make sure the dropdown box on the right is set to `SKSE` and press the `Run` but
 
 To safely add mods to AVO, please read [the guide](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/Adding%20mods%20to%20AVO.md), which covers some of the details you need to know.
 
-## Updating the modlist
+### Anniversary Edition
 
-Before updating, please check the changelog and back up your saves. You may need to start a new game after certain updates.
+AVO supports the latest verison of Skyrim, but **does not require** the paid update. 
 
-Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite existing modlist` button. **Note**: Any mods you have added will be deleted when updating.
+If you have the paid update, [AVO-AE](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/AEReadme.md) is available for you to use. Please see the linked document for more details about it.
 
 ## FAQ
 
 Placeholder for your Readme.
+
+# This version of the list is not supported and does not get any updates in the future. 
 
 ### Tweaking the Game Settings
 
@@ -225,6 +238,8 @@ If you really cannot handle the ENB, uncheck `useEffect`. Note that this will ma
 ## Removing the Modlist
 Simply delete the folder, and you have uninstalled it.
 
+# This version of the list is not supported and does not get any updates in the future. 
+
 ## Credits and Thanks
 
 - _YOU_ for reading this.
@@ -234,9 +249,7 @@ Simply delete the folder, and you have uninstalled it.
 
 ## Contact
 
-Whilst I am available primarily on [my server](https://discord.gg/DffHKcszfg), please check the [issues](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/issues) tab on github first if you have any issues. DO NOT DM ME ON DISCORD.
-
-You are welcome to [contribute](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/Contributing.md) to the list, however please check the [changelog](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/Changelog.md) before you do.
+**DON'T**
 
 ## The Animonculory Team
 - Althro - Leader & Head of Development
@@ -247,3 +260,5 @@ You are welcome to [contribute](https://github.com/The-Animonculory/Animonculory
 - Annakins - Dev Team, Testing, Graphics & Documentation
 - Astro - Dev Team & Testing
 - DestinySlayer - Dev Team & Community Engagement
+
+# This version of the list is not supported and does not get any updates in the future. 
