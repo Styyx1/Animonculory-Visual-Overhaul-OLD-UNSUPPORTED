@@ -1,6 +1,6 @@
 # Animonculory Visual Overhaul
 
-# This version of the list is not supported and does not get any updates in the future. 
+# This version of the list is not supported and does not get any updates in the future. Repo gets deleted as soon as someone asks for support
 
 ![image](https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/AVOLogo.webp)
 
